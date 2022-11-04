@@ -1,10 +1,9 @@
 # .github/release.yml
 
 changelog:
+  include:
+    labels:
+      - "changelog"
   exclude:
     labels:
-      - ignore-for-release
-  categories:
-    - title: "[INSERT VERSION HERE]"
-      labels:
-        - "*"
+      - "*"
