@@ -6,5 +6,6 @@ changelog:
       labels:
         - changelog
     - title: Other
-      labels:
-        - '*'
+      exclude:
+        labels:
+          - '*'
