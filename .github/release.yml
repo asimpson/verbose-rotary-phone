@@ -1,9 +1,10 @@
 # .github/release.yml
 
 changelog:
-  include:
-    labels:
-      - "changelog"
   exclude:
     labels:
       - "*"
+  categories:
+    - title: Changelog
+      labels:
+        - changelog
