@@ -5,6 +5,6 @@ changelog:
     labels:
       - ignore-for-release
   categories:
-    - title: [INSERT VERSION HERE]
+    - title: "[INSERT VERSION HERE]"
       labels:
         - "*"
