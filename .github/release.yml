@@ -5,6 +5,6 @@ changelog:
     - title: Changelog
       labels:
         - changelog
-  exclude:
-    labels:
-      - "*"
+    - title: Other
+      labels:
+        - '*'
